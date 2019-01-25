@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/detailsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="20dip"
+        android:text="Contact Profile"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dip" />
+<TextView
+    android:gravity="center"
+    android:id="@+id/name"
+android:text="bnjkj"
+    android:textColor="@color/black"
+    android:textSize="15dp"
+    android:layout_gravity="center"
+    android:background="@drawable/rounded_border_edittext"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/number"
+android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_border_edittext"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="Relationships"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <LinearLayout
+        android:background="@drawable/rounded_border_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+        </ListView>
+
+
+
+    </LinearLayout>
+</LinearLayout>
